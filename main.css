@@ -1,0 +1,34 @@
+.header{
+background-color: deepskyblue;
+padding: 5px;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 7px;
+    text-decoration: none;
+}
+.header h1{
+    float: left;
+    padding: auto;
+    margin: 3px;
+}
+#dn{
+    background-color: deepskyblue;
+    padding: 1px;
+
+}
+#for{
+    text-align: end;
+}
+.sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 100px;
+
+}
+#didy li a:link{
+    text-decoration: none;
+}
